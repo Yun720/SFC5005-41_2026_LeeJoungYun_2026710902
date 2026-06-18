@@ -1,0 +1,254 @@
+[
+  {
+    "plc_tag": "PLC.PRINTER.TEMP",
+    "equipment_instance_id": "ScreenPrinter_01",
+    "aas_path": "OperationData.Temp",
+    "data_type": "float",
+    "unit": "°C"
+  },
+  {
+    "plc_tag": "PLC.PRINTER.HUMIDITY",
+    "equipment_instance_id": "ScreenPrinter_01",
+    "aas_path": "OperationData.Humidity",
+    "data_type": "float",
+    "unit": "%"
+  },
+  {
+    "plc_tag": "PLC.PRINTER.SQUEEGEE_PRESSURE",
+    "equipment_instance_id": "ScreenPrinter_01",
+    "aas_path": "OperationData.SqueegeePressure",
+    "data_type": "float",
+    "unit": "MPa"
+  },
+  {
+    "plc_tag": "PLC.PRINTER.SQUEEGEE_SPEED",
+    "equipment_instance_id": "ScreenPrinter_01",
+    "aas_path": "OperationData.SqueegeeSpeed",
+    "data_type": "float",
+    "unit": "mm/s"
+  },
+  {
+    "plc_tag": "PLC.PRINTER.PASTE_ID",
+    "equipment_instance_id": "ScreenPrinter_01",
+    "aas_path": "OperationData.PasteID",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.PRINTER.STENCIL_ID",
+    "equipment_instance_id": "ScreenPrinter_01",
+    "aas_path": "OperationData.StencilID",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.PRINTER.CYCLE_TIME",
+    "equipment_instance_id": "ScreenPrinter_01",
+    "aas_path": "OperationData.CycleTime",
+    "data_type": "float",
+    "unit": "s"
+  },
+  {
+    "plc_tag": "PLC.SPI.INSPECTION_RESULT",
+    "equipment_instance_id": "SPI_01",
+    "aas_path": "QualityResult.InspectionResult",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.SPI.SOLDER_VOLUME",
+    "equipment_instance_id": "SPI_01",
+    "aas_path": "QualityResult.SolderVolume",
+    "data_type": "float",
+    "unit": "%"
+  },
+  {
+    "plc_tag": "PLC.SPI.SOLDER_HEIGHT",
+    "equipment_instance_id": "SPI_01",
+    "aas_path": "QualityResult.SolderHeight",
+    "data_type": "float",
+    "unit": "mm"
+  },
+  {
+    "plc_tag": "PLC.SPI.OFFSET_X",
+    "equipment_instance_id": "SPI_01",
+    "aas_path": "QualityResult.OffsetX",
+    "data_type": "float",
+    "unit": "mm"
+  },
+  {
+    "plc_tag": "PLC.SPI.OFFSET_Y",
+    "equipment_instance_id": "SPI_01",
+    "aas_path": "QualityResult.OffsetY",
+    "data_type": "float",
+    "unit": "mm"
+  },
+  {
+    "plc_tag": "PLC.SPI.DEFECT_TYPE",
+    "equipment_instance_id": "SPI_01",
+    "aas_path": "QualityResult.DefectType",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.MOUNTER.PLACEMENT_SPEED",
+    "equipment_instance_id": "Mounter_01",
+    "aas_path": "OperationData.PlacementSpeed",
+    "data_type": "float",
+    "unit": "cph"
+  },
+  {
+    "plc_tag": "PLC.MOUNTER.MOUNT_CT",
+    "equipment_instance_id": "Mounter_01",
+    "aas_path": "OperationData.MountCT",
+    "data_type": "float",
+    "unit": "s"
+  },
+  {
+    "plc_tag": "PLC.MOUNTER.PICKUP_ERROR",
+    "equipment_instance_id": "Mounter_01",
+    "aas_path": "OperationData.PickupError",
+    "data_type": "int",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.MOUNTER.PARTS_VISION_ERR",
+    "equipment_instance_id": "Mounter_01",
+    "aas_path": "OperationData.PartsVisionError",
+    "data_type": "int",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.MOUNTER.PRODUCED_BOARDS",
+    "equipment_instance_id": "Mounter_01",
+    "aas_path": "OperationData.ProducedBoards",
+    "data_type": "int",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.MOUNTER.WORKING_RATIO",
+    "equipment_instance_id": "Mounter_01",
+    "aas_path": "OperationData.WorkingRatio",
+    "data_type": "float",
+    "unit": "%"
+  },
+  {
+    "plc_tag": "PLC.REFLOW.ZONE1_TEMP",
+    "equipment_instance_id": "Reflow_01",
+    "aas_path": "OperationData.Zone1Temperature",
+    "data_type": "float",
+    "unit": "°C"
+  },
+  {
+    "plc_tag": "PLC.REFLOW.ZONE2_TEMP",
+    "equipment_instance_id": "Reflow_01",
+    "aas_path": "OperationData.Zone2Temperature",
+    "data_type": "float",
+    "unit": "°C"
+  },
+  {
+    "plc_tag": "PLC.REFLOW.ZONE3_TEMP",
+    "equipment_instance_id": "Reflow_01",
+    "aas_path": "OperationData.Zone3Temperature",
+    "data_type": "float",
+    "unit": "°C"
+  },
+  {
+    "plc_tag": "PLC.REFLOW.CONVEYOR_SPEED",
+    "equipment_instance_id": "Reflow_01",
+    "aas_path": "OperationData.ConveyorSpeed",
+    "data_type": "float",
+    "unit": "cm/min"
+  },
+  {
+    "plc_tag": "PLC.REFLOW.OXYGEN_LEVEL",
+    "equipment_instance_id": "Reflow_01",
+    "aas_path": "OperationData.OxygenLevel",
+    "data_type": "float",
+    "unit": "ppm"
+  },
+  {
+    "plc_tag": "PLC.REFLOW.POWER_CONSUMPTION",
+    "equipment_instance_id": "Reflow_01",
+    "aas_path": "OperationData.PowerConsumption",
+    "data_type": "float",
+    "unit": "kW"
+  },
+  {
+    "plc_tag": "PLC.AOI.INSPECTION_RESULT",
+    "equipment_instance_id": "AOI_01",
+    "aas_path": "QualityResult.InspectionResult",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.AOI.DEFECT_TYPE",
+    "equipment_instance_id": "AOI_01",
+    "aas_path": "QualityResult.DefectType",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.AOI.DEFECT_LOCATION",
+    "equipment_instance_id": "AOI_01",
+    "aas_path": "QualityResult.DefectLocation",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.AOI.MEASURE_VALUE",
+    "equipment_instance_id": "AOI_01",
+    "aas_path": "QualityResult.MeasureValue",
+    "data_type": "float",
+    "unit": "mm"
+  },
+  {
+    "plc_tag": "PLC.AOI.REVIEW_RESULT",
+    "equipment_instance_id": "AOI_01",
+    "aas_path": "QualityResult.ReviewResult",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.ICT.INSPECTION_RESULT",
+    "equipment_instance_id": "ICT_01",
+    "aas_path": "QualityResult.InspectionResult",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.ICT.TEST_VOLTAGE",
+    "equipment_instance_id": "ICT_01",
+    "aas_path": "QualityResult.TestVoltage",
+    "data_type": "float",
+    "unit": "V"
+  },
+  {
+    "plc_tag": "PLC.ICT.TEST_CURRENT",
+    "equipment_instance_id": "ICT_01",
+    "aas_path": "QualityResult.TestCurrent",
+    "data_type": "float",
+    "unit": "mA"
+  },
+  {
+    "plc_tag": "PLC.ICT.DEFECT_TYPE",
+    "equipment_instance_id": "ICT_01",
+    "aas_path": "QualityResult.DefectType",
+    "data_type": "str",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.ICT.ACTUAL_VALUE",
+    "equipment_instance_id": "ICT_01",
+    "aas_path": "QualityResult.ActualValue",
+    "data_type": "float",
+    "unit": ""
+  },
+  {
+    "plc_tag": "PLC.ICT.STANDARD_VALUE",
+    "equipment_instance_id": "ICT_01",
+    "aas_path": "QualityResult.StandardValue",
+    "data_type": "float",
+    "unit": ""
+  }
+]
